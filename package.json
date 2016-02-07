@@ -1,0 +1,16 @@
+{
+  "name": "metadata-microservice",
+  "version": "1.0.0",
+  "description": "Metadata Microservice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "awwakum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  }
+}

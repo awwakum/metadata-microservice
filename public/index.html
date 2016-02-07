@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metadata Microservice</title>
+</head>
+<body>
+	<div class="container">
+		<h1>File Metadata Microservice</h1>
+		<blockquote>
+			<ul>User Stories:
+				<li>I can submit a FormData object that includes a file upload.</li>
+				<li>When I submit something, I will receive the file size in bytes within the JSON response.</li>
+			</ul>
+		</blockquote>
+		<form name="upload" action="/upload" method="POST" enctype="multipart/form-data">
+			Select a file to upload:
+			<input type="file" name="your file"> 
+			<input type="submit" value="Upload">
+		</form>
+	</div>
+</body>
+</html>
