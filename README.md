@@ -2,7 +2,7 @@
 File Metadata Microservice
 
 ### demo
-https://metadata-microservice.herokuapp.com/
+https://metadata-service.herokuapp.com/
 
 User stories:
 
